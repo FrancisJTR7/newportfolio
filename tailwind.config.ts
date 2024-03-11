@@ -18,7 +18,7 @@ const config: Config = {
         dgray: '#1B1B1B',
       },
       backgroundImage: {
-        noised: "url('/noised.svg')",
+        noised: "url('/noise.svg')",
       },
     },
   },

@@ -24,6 +24,37 @@
 }
 
 body {
-  background-color: #e4e4e4;
-  background-image: url('/noise.svg');
+  position: relative;
+  z-index: 0;
+  background-color: #ede8e3;
+  overflow: hidden;
+}
+
+body::before {
+  content: '';
+  background-image: url('/noiseee.gif');
+  opacity: 0.06;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.bg-noised-gif {
+  position: relative;
+  z-index: 0;
+}
+
+.bg-noised-gif::before {
+  content: '';
+  background-image: url('/noiseee.gif');
+  opacity: 0.027;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
