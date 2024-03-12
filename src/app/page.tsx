@@ -66,7 +66,7 @@ export default function Home() {
           <div className='about aboutm scale-[.85]'>
             <About />
           </div>
-          <div className='about scale-[.85]'>
+          <div className='about aboutprof scale-[.85]'>
             <Professional />
           </div>
         </div>
