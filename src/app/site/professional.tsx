@@ -49,9 +49,9 @@ export default function Professional() {
                   what’s most important about me is that i do truly enjoy
                   developing websites, I also enjoy designing them. i designed
                   then developed this website fully from the ground up, enjoyed
-                  every second of it too. for this portfolio in particular, I
-                  used figma for design and then nextjs, tailwindcss, and gsap
-                  for development, those were the dominant technologies used
+                  every second of it. <br /> for this portfolio in particular, I
+                  used figma for design, then nextjs, tailwindcss, and gsap for
+                  development. those were the dominant technologies used
                   anyways.
                 </p>
               </div>

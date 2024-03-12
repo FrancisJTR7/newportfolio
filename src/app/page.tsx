@@ -7,6 +7,7 @@ import Lenis from '@studio-freight/lenis';
 import About from './site/about';
 import Personal from './site/personal';
 import Professional from './site/professional';
+import Works from './site/works';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,6 +26,16 @@ export default function Home() {
         trigger: '.xcontainer',
         start: 'top 97%',
         end: 'top center',
+        scrub: true,
+      },
+    });
+    gsap.to('.works', {
+      opacity: 1,
+      translateY: 0,
+      scrollTrigger: {
+        trigger: '.worksbox',
+        start: 'top bottom',
+        end: 'top 15%',
         scrub: true,
       },
     });
@@ -71,7 +82,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='w-[100vw] h-[100vh]'></div>
+      <div className='w-[100vw] h-[240vh] worksbox'>
+        <Works />
+      </div>
     </main>
   );
 }

@@ -15,7 +15,7 @@ export default function Personal() {
   return (
     <div className='h-[100vh] overflow-hidden bg-dgray bg-noised-gif w-[100vw] '>
       <div className='opacity-0 pers'>
-        <div className='flex w-[100vw] justify-between mt-[40px] text-[20px] ml-[100px] mb-[35px] font-haaslight text-white opacity-[90%]'>
+        <div className=' w-[100vw] pt-[40px] text-[20px] ml-[100px] mb-[35px] font-haaslight text-white opacity-[90%]'>
           personal
         </div>
         <div className='border-b-[1px] border-dashed border-white opacity-[35%]' />
