@@ -8,6 +8,7 @@ import About from './site/about';
 import Personal from './site/personal';
 import Professional from './site/professional';
 import Works from './site/works';
+import Contact from './site/contact';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -39,6 +40,12 @@ export default function Home() {
         scrub: true,
       },
     });
+    gsap.to('.hide', {
+      height: '100%',
+      width: '100%',
+      overflow: 'visible',
+      delay: 3.5,
+    });
 
     const lenis = new Lenis();
 
@@ -69,21 +76,26 @@ export default function Home() {
           <Hero />
         </div>
       </div>
-      <div className='overflow-hidden'>
-        <div className='xcontainer flex flex-row w-[300vw] h-[100vh] relative translate-x-[-100vw]'>
-          <div className='about aboutpers scale-[.85]'>
-            <Personal />
-          </div>
-          <div className='about aboutm scale-[.85]'>
-            <About />
-          </div>
-          <div className='about aboutprof scale-[.85]'>
-            <Professional />
+      <div className='hide w-0 h-0 overflow-hidden '>
+        <div className='overflow-hidden'>
+          <div className='xcontainer flex flex-row w-[300vw] h-[100vh] relative translate-x-[-100vw]'>
+            <div className='about aboutpers scale-[.85]'>
+              <Personal />
+            </div>
+            <div className='about aboutm scale-[.85]'>
+              <About />
+            </div>
+            <div className='about aboutprof scale-[.85]'>
+              <Professional />
+            </div>
           </div>
         </div>
-      </div>
-      <div className='w-[100vw] h-[240vh] worksbox'>
-        <Works />
+        <div className='w-[100vw] h-[240vh] worksbox'>
+          <Works />
+        </div>
+        <div className='w-[100vw] h-[100vh]'>
+          <Contact />
+        </div>
       </div>
     </main>
   );
