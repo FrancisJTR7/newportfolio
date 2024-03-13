@@ -44,17 +44,15 @@ export default function Home() {
       height: '100%',
       width: '100%',
       overflow: 'visible',
-      delay: 3.5,
+      delay: 3.95,
     });
 
-    const lenis = new Lenis();
+    const options = {
+      lerp: 0.1, // Adjust this value as needed, typically between 0.05 and 0.15
+      smoothTouch: true, // Ensure smooth scrolling is enabled
+    };
 
-    lenis.stop(); // Stop scrolling immediately
-
-    // Start scrolling again after 2.6 seconds
-    setTimeout(() => {
-      lenis.start();
-    }, 3950);
+    const lenis = new Lenis(options);
 
     function raf(time) {
       lenis.raf(time);
