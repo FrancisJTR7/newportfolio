@@ -22,9 +22,11 @@ export default function Professional() {
         <div className='border-b-[1px] border-dashed border-white opacity-[35%]' />
         <div className='h-full'>
           <div className='h-[35%]  w-[50%] pl-[10vw]  pt-[10vh]'>
-            <p className='text-white text-[20px] font-haaslight opacity-[80%] '>
-              skills (ordered by most favored): <br /> front end development,
-              ux/ui design, back end development
+            <p className='text-white text-[20px] font-haaslight opacity-[100%] '>
+              <span className='opacity-[80%]'>
+                skills (ordered by most favored): <br />
+              </span>
+              front end development, ux/ui design, back end development
             </p>
           </div>
 

@@ -29,7 +29,7 @@ export default function About() {
   };
 
   return (
-    <div className='h-[100vh] bg-dgray bg-noised-gif flex justify-center text-white font-haasxxt text-[100px] w-[100vw] '>
+    <div className='h-[100vh] bg-dgray bg-noised-gif flex justify-center text-white font-haasxxt text-[100px] w-[100vw]'>
       <div className='w-full flex flex-col self-center text-center opacity-[90%] who'>
         <div>who</div>
         <div className='flex justify-between w-full items-center opacity-[90%]'>

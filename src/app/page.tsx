@@ -10,6 +10,7 @@ import Professional from './site/professional';
 import Works from './site/works';
 import Contact from './site/contact';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -48,8 +49,8 @@ export default function Home() {
     });
 
     const options = {
-      lerp: 0.1, // Adjust this value as needed, typically between 0.05 and 0.15
-      smoothTouch: true, // Ensure smooth scrolling is enabled
+      lerp: 0.1,
+      smoothTouch: true,
     };
 
     const lenis = new Lenis(options);
@@ -67,7 +68,7 @@ export default function Home() {
   return (
     <main>
       <div className='relative h-[100vh]'>
-        <div className='intro absolute top-0 left-0 right-0  h-[100vh] '>
+        <div className='intro absolute top-0 left-0 right-0  h-[100vh]  '>
           <Intro />
         </div>
         <div className='introH opacity-0'>
