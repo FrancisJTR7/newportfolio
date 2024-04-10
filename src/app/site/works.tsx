@@ -84,7 +84,7 @@ export function Works() {
       translateY: '15%',
       scrollTrigger: {
         trigger: '.contsec',
-        start: 'top 80%',
+        start: 'top 90%',
         end: 'top top',
         scrub: true,
       },
@@ -94,20 +94,20 @@ export function Works() {
   return (
     <div className='worksec h-[240vh] w-[100vw] bg-dgray bg-noised-gif '>
       <div className='works opacity-0 translate-y-24'>
-        <div className='w-[100vw] pt-[40px] text-[20px]  text-center mb-[35px] font-haaslight text-white opacity-[90%]'>
+        <div className='w-[100vw] pt-[40px] text-[20px]  text-center mb-[35px] font-haasm text-white '>
           works
         </div>
         <div className='border-b-[1px] border-dashed border-white opacity-[35%]' />
         <div className='work1c flex flex-row h-[75vh] w-[100vw]'>
           <div className='work1 opacity-30 translate-x-[-10%] h-full w-[50vw] flex justify-end items-center '>
             <div className='relative max-w-[90%]'>
-              <div className='w-[900px] h-full max-w-[100%] overflow-hidden rounded-[40px]'>
+              <div className='overflow-hidden rounded-[40px]'>
                 <Image
                   src='/night1.jpg'
                   width={900}
                   height={0}
                   alt='Picture of night'
-                  className='pic1 opacity-70 scale-[1.2]'
+                  className='pic1 w-[900px] max-h-[55vh] h-[55vh]  opacity-70 scale-[1.2]'
                 />
               </div>
               <Image
@@ -124,7 +124,7 @@ export function Works() {
               threejs ai shirt website
             </div>
             <div className='w-full flex flex-col items-center'>
-              <div className='font-medium opacity-[90%]'>technologies</div>
+              <div className='font-haasm opacity-[90%]'>technologies</div>
               <div className='flex w-[20%] justify-between font-haast opacity-[80%]'>
                 <div>
                   react <br />
@@ -149,13 +149,13 @@ export function Works() {
           </div>
         </div>
         <div className='work2c flex flex-row h-[75vh] w-[100vw]'>
-          <div className='work2 opacity-30  translate-x-[-10%] flex flex-col justify-evenly text-white text-[20px] font-haaslight w-[40vw] pl-[5vw] h-full'>
-            <div className='work1 opacity-30  translate-x-[10%] flex flex-col justify-evenly text-white text-center w-[40vw]  pr-[3vw] h-[70%] items-center'>
+          <div className='work2 opacity-30  translate-x-[-10%] flex flex-col justify-evenly  w-[40vw] pl-[8vw] h-full'>
+            <div className='work1 opacity-30  translate-x-[10%] flex flex-col justify-evenly text-white text-center w-[40vw] h-[70%] items-center self-center'>
               <div className='font-haasxt text-[72px] tracking-[-.8px]'>
                 threejs ai shirt website
               </div>
               <div className='w-full flex flex-col items-center'>
-                <div className='font-medium opacity-[90%]'>technologies</div>
+                <div className='font-haasm opacity-[90%]'>technologies</div>
                 <div className='flex w-[20%] justify-between font-haast opacity-[80%]'>
                   <div>
                     react <br />
@@ -179,19 +179,19 @@ export function Works() {
               </div>
             </div>
           </div>
-          <div className='work2 opacity-30 translate-x-[10%] h-full w-[50vw] flex justify-end items-center '>
-            <div className='relative max-w-[90%]'>
-              <div className='w-[900px] h-full max-w-[100%] overflow-hidden rounded-[40px]'>
+          <div className='work2 opacity-30 translate-x-[10%] h-full w-[50vw] flex justify-end items-center ml-[3vw] '>
+            <div className='relative max-w-[90%] '>
+              <div className=' overflow-hidden rounded-[40px]'>
                 <Image
-                  src='/night1.jpg'
+                  src='/sanfran.jpg'
                   width={900}
                   height={0}
                   alt='Picture of night'
-                  className='pic1 opacity-70 scale-[1.2]'
+                  className='pic2 w-[900px] max-h-[55vh] h-[55vh] opacity-50 scale-[1.2]'
                 />
               </div>
               <Image
-                src='/aishirt.png'
+                src='/oldport.gif'
                 width={700}
                 height={550}
                 alt='Picture of night'
@@ -205,11 +205,11 @@ export function Works() {
             <div className='relative max-w-[90%]'>
               <div className='w-[900px] h-full max-w-[100%] overflow-hidden rounded-[40px]'>
                 <Image
-                  src='/night1.jpg'
+                  src='/nycpic.jpg'
                   width={900}
                   height={0}
                   alt='Picture of night'
-                  className='pic1 opacity-70 scale-[1.2]'
+                  className='pic3 opacity-70 w-[900px] max-h-[55vh] h-[55vh] scale-[1.2]'
                 />
               </div>
               <Image
@@ -226,7 +226,7 @@ export function Works() {
               threejs ai shirt website
             </div>
             <div className='w-full flex flex-col items-center'>
-              <div className='font-medium opacity-[90%]'>technologies</div>
+              <div className='font-haasm opacity-[90%]'>technologies</div>
               <div className='flex w-[20%] justify-between font-haast opacity-[80%]'>
                 <div>
                   react <br />

@@ -14,6 +14,7 @@ const config: Config = {
         haasxxt: ['NeueHaasDisplayXXThin', 'sans-serif'],
         haasxt: ['NeueHaasDisplayXThin', 'sans-serif'],
         haast: ['NeueHaasDisplayThin', 'sans-serif'],
+        haasm: ['NeueHaasDisplayMedium', 'sans-serif'],
       },
       colors: {
         lgray: '#3F3F3F',

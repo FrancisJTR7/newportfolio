@@ -46,13 +46,12 @@ export default function Contact() {
           <h1 className='font-haasxxt text-[100px] text-lgray mt-[10vh]'>
             let's get something done.
           </h1>
-          <div
-            ref={emailRef}
-            className='font-haaslight text-[28px] text-lgray self-end opacity-[65%] cursor-pointer mb-6'
-          >
-            <span className='text-[14px] cursor-default'>copy me!</span>
+          <div className='font-haaslight text-[28px] text-lgray self-end opacity-[65%] cursor-pointer mb-6'>
+            <span className='text-[14px] cursor-default'>
+              click email to copy
+            </span>
             <br />
-            francisjtr7@outlook.com
+            <span ref={emailRef}>francisjtr7@outlook.com</span>
           </div>
         </div>
       </div>

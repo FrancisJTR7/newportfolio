@@ -9,7 +9,7 @@ export default function About() {
     gsap.to('.aboutpers', { scale: 0.85, duration: 0, delay: 0.3 });
     gsap.to('.aboutpers', { scale: 1, duration: 0.6, delay: 0.9 });
     gsap.to('.pers', {
-      opacity: 0.9,
+      opacity: 1,
       duration: 0.9,
       delay: 0.7,
     });
@@ -22,7 +22,7 @@ export default function About() {
     gsap.to('.aboutprof', { scale: 0.85, duration: 0, delay: 0.3 });
     gsap.to('.aboutprof', { scale: 1, duration: 0.6, delay: 0.9 });
     gsap.to('.prof', {
-      opacity: 0.9,
+      opacity: 1,
       duration: 0.9,
       delay: 0.7,
     });
@@ -35,14 +35,14 @@ export default function About() {
         <div className='flex justify-between w-full items-center opacity-[90%]'>
           <div
             onClick={handleClickPers}
-            className='font-haaslight text-[20px] underline decoration-1 underline-offset-[6px] ml-6 cursor-pointer '
+            className='font-haasm text-[16px] underline decoration-1 underline-offset-[6px] ml-10 cursor-pointer '
           >
             personal
           </div>
           <div>am</div>
           <div
             onClick={handleClickProf}
-            className='font-haaslight text-[20px] underline decoration-1 underline-offset-[6px] mr-6 cursor-pointer'
+            className='font-haasm text-[16px] underline decoration-1 underline-offset-[6px] mr-10 cursor-pointer'
           >
             professional
           </div>

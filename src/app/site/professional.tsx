@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 export default function Professional() {
   const handleClickbProf = () => {
     gsap.to('.xcontainer', { x: '-100vw', duration: 1, delay: 0.3 });
-    gsap.to('.who', { opacity: 0.9, duration: 0.9, delay: 0.7 });
+    gsap.to('.who', { opacity: 1, duration: 0.9, delay: 0.7 });
     gsap.fromTo(
       '.aboutm',
       { scale: 0.85 },
@@ -16,50 +16,48 @@ export default function Professional() {
   return (
     <div className='h-[100vh] overflow-hidden bg-dgray bg-noised-gif w-[100vw] '>
       <div className=' h-[100vh] w-[100vw] opacity-0 prof'>
-        <div className='flex w-full justify-between mt-[40px] text-[20px] ml-[100px] mb-[35px] font-haaslight text-white opacity-[90%]'>
+        <div className=' flex w-full justify-between mt-[40px] text-[20px] ml-[100px] mb-[35px] font-haasm text-white '>
           professional
         </div>
         <div className='border-b-[1px] border-dashed border-white opacity-[35%]' />
         <div className='h-full'>
           <div className='h-[35%]  w-[50%] pl-[10vw]  pt-[10vh]'>
-            <p className='text-white text-[20px] font-haaslight opacity-[100%] '>
-              <span className='opacity-[80%]'>
+            <p className='text-white  font-haaslight  '>
+              <span className='font-haasm'>
                 skills (ordered by most favored): <br />
               </span>
               front end development, ux/ui design, back end development
             </p>
           </div>
 
-          <div className=' flex flex-row font-haaslight opacity-[80%] text-white justify-between text-[20px] indent-10 w-[100w]'>
+          <div className=' flex flex-row font-haaslight text-white justify-between indent-10 w-[100w]'>
             <div
               onClick={handleClickbProf}
-              className=' underline decoration-1 underline-offset-[6px] self-start cursor-pointer mt-4'
+              className=' underline decoration-1 font-haasm underline-offset-[6px] self-start cursor-pointer mt-4'
             >
               go back
             </div>
 
-            <div className='w-[80vw] flex flex-row justify-between '>
-              <div className='w-[45vw]'>
+            <div className='w-[80vw] flex flex-row justify-between text-center'>
+              <div className='w-[32vw] h-max mt-[8vh] p-6  border-[1px] border-opacity-35 border-dashed rounded-[40px] border-white '>
                 <p>
-                  i don't really know what to put here and this space needs to
-                  be filled so enjoy my simplistic approach at listing what
-                  technologies i enjoy using.
+                  so if your here now you’ve probably seen a million other
+                  portfolios. i don’t know about you but i find it really
+                  annoying how everyone just claims to be “the best” at every
+                  technology they list out, feels kind of robotic and i think
+                  just lacking of personality overall
                 </p>
                 <br />
                 <br />
                 <p>
-                  what’s most important about me is that i do truly enjoy
-                  developing websites, I also enjoy designing them. i designed
-                  then developed this website fully from the ground up, enjoyed
-                  every second of it. <br /> for this portfolio in particular, I
-                  used figma for design, then nextjs, tailwindcss, and gsap for
-                  development. those were the dominant technologies used
-                  anyways.
+                  but anywho, to the <span className='font-haasm'>right</span>{' '}
+                  are listed my primary technologies of development. i’m
+                  basically the best at every one of them so please do go ahead
+                  and reach out to me if i could help you with any of them : )
                 </p>
               </div>
-              <div className='indent-0 w-[20vw]'>
-                technologies
-                <br />
+              <div className='indent-0 w-[20vw] mr-[8vw]'>
+                <span className='font-haasm'>technologies:</span>
                 <br />
                 nextjs (react too of course)
                 <br />
