@@ -132,7 +132,7 @@ export function Works() {
                   node.js
                 </div>
                 <div>
-                  tailwind <br />
+                  tailwindcss <br />
                   threejs
                   <br /> framer
                 </div>
@@ -152,30 +152,28 @@ export function Works() {
           <div className='work2 opacity-30  translate-x-[-10%] flex flex-col justify-evenly  w-[40vw] pl-[8vw] h-full'>
             <div className='work1 opacity-30  translate-x-[10%] flex flex-col justify-evenly text-white text-center w-[40vw] h-[70%] items-center self-center'>
               <div className='font-haasxt text-[72px] tracking-[-.8px]'>
-                threejs ai shirt website
+                old portfolio
               </div>
               <div className='w-full flex flex-col items-center'>
                 <div className='font-haasm opacity-[90%]'>technologies</div>
                 <div className='flex w-[20%] justify-between font-haast opacity-[80%]'>
                   <div>
                     react <br />
-                    vite <br />
-                    node.js
+                    sass
                   </div>
                   <div>
-                    tailwind <br />
                     threejs
-                    <br /> framer
+                    <br /> bootstrap
                   </div>
                 </div>
               </div>
               <div className='w-[20vw] font-haaslight mb-10'>
-                simple 3d project where the user can customize a t-shirt using a
-                prompt to create an ai generated image, or upload their own
-                image onto the model.
+                straightforward portfolio website with threejs implementation.
+                if you are seeing this then you are on the new portfolio website
+                and my old portfolio is no longer serviced.
               </div>
               <div className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%]'>
-                https://3dairshirt.com
+                this website is no longer live
               </div>
             </div>
           </div>
@@ -191,10 +189,10 @@ export function Works() {
                 />
               </div>
               <Image
-                src='/oldport.gif'
+                src='/oldportff.gif'
                 width={700}
                 height={550}
-                alt='Picture of night'
+                alt='Gif of old portfolio'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
             </div>
@@ -213,40 +211,44 @@ export function Works() {
                 />
               </div>
               <Image
-                src='/aishirt.png'
+                src='/3djackgif.gif'
                 width={700}
                 height={550}
-                alt='Picture of night'
+                alt='Picture of jacket website'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
             </div>
           </div>
           <div className='work3 opacity-30  translate-x-[10%] flex flex-col justify-evenly text-white text-center w-[40vw]  ml-[3vw] h-[70%] items-center self-center'>
             <div className='font-haasxt text-[72px] tracking-[-.8px]'>
-              threejs ai shirt website
+              jacket builder component
             </div>
             <div className='w-full flex flex-col items-center'>
               <div className='font-haasm opacity-[90%]'>technologies</div>
               <div className='flex w-[20%] justify-between font-haast opacity-[80%]'>
                 <div>
-                  react <br />
-                  vite <br />
-                  node.js
+                  nextjs <br />
+                  three.js <br />
+                  tailwindcss
                 </div>
                 <div>
-                  tailwind <br />
-                  threejs
-                  <br /> framer
+                  redux <br />
+                  axios
+                  <br /> typescript
                 </div>
               </div>
             </div>
             <div className='w-[20vw] font-haaslight mb-10'>
-              simple 3d project where the user can customize a t-shirt using a
-              prompt to create an ai generated image, or upload their own image
-              onto the model.
+              threejs jacket build component featuring a series of dropdown
+              options for in-depth customization, real-time 3D model updates
+              reflecting user choices, responsive design across multiple
+              devices, and backend data acquisition.
+              <br />
+              <br />
+              (this was a component for a website requested by a client)
             </div>
-            <div className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%]'>
-              https://3dairshirt.com
+            <div className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%] w-[20vw]'>
+              no link available
             </div>
           </div>
         </div>
