@@ -41,17 +41,17 @@ export default function Professional() {
             <div className='w-[80vw] flex flex-row justify-between text-center'>
               <div className='w-[32vw] h-max mt-[8vh] p-6  border-[1px] border-opacity-35 border-dashed rounded-[40px] border-white '>
                 <p>
-                  so if your here now you’ve probably seen a million other
-                  portfolios. i don’t know about you but i find it really
+                  so if you're here now you’ve probably seen a million other
+                  portfolios. i don’t know about you, but i find it really
                   annoying how everyone just claims to be “the best” at every
-                  technology they list out, feels kind of robotic and i think
+                  technology they list out. feels kind of robotic and i think
                   just lacking of personality overall
                 </p>
                 <br />
                 <br />
                 <p>
                   but anywho, to the <span className='font-haasm'>right</span>{' '}
-                  are listed my primary technologies of development. i’m
+                  here are listed my primary technologies of development. i’m
                   basically the best at every one of them so please do go ahead
                   and reach out to me if i could help you with any of them : )
                 </p>

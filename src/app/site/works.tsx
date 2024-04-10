@@ -24,6 +24,16 @@ export function Works() {
         scrub: true,
       },
     });
+    gsap.to('.work4', {
+      translateX: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '.work4c',
+        start: 'top 97%',
+        end: 'top 15%',
+        scrub: true,
+      },
+    });
     gsap.to('.work3', {
       translateX: 0,
       opacity: 1,
@@ -47,6 +57,15 @@ export function Works() {
       scale: 1,
       scrollTrigger: {
         trigger: '.work2c',
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: true,
+      },
+    });
+    gsap.to('.pic4', {
+      scale: 1,
+      scrollTrigger: {
+        trigger: '.work4c',
         start: 'top bottom',
         end: 'bottom top',
         scrub: true,
@@ -79,7 +98,7 @@ export function Works() {
         scrub: true,
       },
     });
-    gsap.to('.work3c', {
+    gsap.to('.work4c', {
       opacity: 0,
       translateY: '15%',
       scrollTrigger: {
@@ -92,7 +111,7 @@ export function Works() {
   }, []);
 
   return (
-    <div className='worksec h-[240vh] w-[100vw] bg-dgray bg-noised-gif '>
+    <div className='worksec h-[315vh] w-[100vw] bg-dgray bg-noised-gif '>
       <div className='works opacity-0 translate-y-24'>
         <div className='w-[100vw] pt-[40px] text-[20px]  text-center mb-[35px] font-haasm text-white '>
           works
@@ -107,14 +126,14 @@ export function Works() {
                   width={900}
                   height={0}
                   alt='Picture of night'
-                  className='pic1 w-[900px] max-h-[55vh] h-[55vh]  opacity-70 scale-[1.2]'
+                  className='pic1 max-h-[55vh] h-[55vh]  opacity-70 scale-[1.2]'
                 />
               </div>
               <Image
                 src='/aishirt.png'
                 width={700}
                 height={550}
-                alt='Picture of night'
+                alt='Picture of shirt website'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
             </div>
@@ -132,7 +151,8 @@ export function Works() {
                   node.js
                 </div>
                 <div>
-                  tailwindcss <br />
+                  tailwind
+                  <br />
                   threejs
                   <br /> framer
                 </div>
@@ -143,9 +163,12 @@ export function Works() {
               prompt to create an ai generated image, or upload their own image
               onto the model.
             </div>
-            <div className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%]'>
+            <a
+              href='https://3dairshirt.com'
+              className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%]'
+            >
               https://3dairshirt.com
-            </div>
+            </a>
           </div>
         </div>
         <div className='work2c flex flex-row h-[75vh] w-[100vw]'>
@@ -189,7 +212,7 @@ export function Works() {
                 />
               </div>
               <Image
-                src='/oldportff.gif'
+                src='/oldport.gif'
                 width={700}
                 height={550}
                 alt='Gif of old portfolio'
@@ -215,13 +238,13 @@ export function Works() {
                 width={700}
                 height={550}
                 alt='Picture of jacket website'
-                className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
+                className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%] h-max'
               />
             </div>
           </div>
           <div className='work3 opacity-30  translate-x-[10%] flex flex-col justify-evenly text-white text-center w-[40vw]  ml-[3vw] h-[70%] items-center self-center'>
             <div className='font-haasxt text-[72px] tracking-[-.8px]'>
-              jacket builder component
+              threejs jacket builder
             </div>
             <div className='w-full flex flex-col items-center'>
               <div className='font-haasm opacity-[90%]'>technologies</div>
@@ -229,7 +252,7 @@ export function Works() {
                 <div>
                   nextjs <br />
                   three.js <br />
-                  tailwindcss
+                  tailwind
                 </div>
                 <div>
                   redux <br />
@@ -238,10 +261,9 @@ export function Works() {
                 </div>
               </div>
             </div>
-            <div className='w-[20vw] font-haaslight mb-10'>
-              threejs jacket build component featuring a series of dropdown
-              options for in-depth customization, real-time 3D model updates
-              reflecting user choices, responsive design across multiple
+            <div className='w-[20vw] font-haaslight mb-10 mt-4'>
+              threejs jacket builder component featuring dropdown options ,
+              real-time 3D model updates, responsive design across multiple
               devices, and backend data acquisition.
               <br />
               <br />
@@ -249,6 +271,59 @@ export function Works() {
             </div>
             <div className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%] w-[20vw]'>
               no link available
+            </div>
+          </div>
+        </div>
+        <div className='work4c flex flex-row h-[75vh] w-[100vw]'>
+          <div className='work4 opacity-30  translate-x-[-10%] flex flex-col justify-evenly  w-[40vw] pl-[8vw] h-full'>
+            <div className='work1 opacity-30  translate-x-[10%] flex flex-col justify-evenly text-white text-center w-[40vw] h-[70%] items-center self-center'>
+              <div className='font-haasxt text-[72px] tracking-[-.8px]'>
+                ricch website
+              </div>
+              <div className='w-full flex flex-col items-center'>
+                <div className='font-haasm opacity-[90%]'>technologies</div>
+                <div className='flex w-[20%] justify-between font-haast opacity-[80%]'>
+                  <div>
+                    nextjs <br />
+                    figma
+                  </div>
+                  <div>
+                    threejs
+                    <br /> tailwind
+                  </div>
+                </div>
+              </div>
+              <div className='w-[20vw] font-haaslight mb-10'>
+                helped in the design and development of ricch website as
+                requested by clientele. features threejs models and animations
+                throughout the website.
+              </div>
+              <a
+                href='https://www.ricch.com/'
+                className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%]'
+              >
+                https://www.ricch.com/
+              </a>
+            </div>
+          </div>
+          <div className='work4 opacity-30 translate-x-[10%] h-full w-[50vw] flex justify-end items-center ml-[3vw] '>
+            <div className='relative max-w-[90%] '>
+              <div className=' overflow-hidden rounded-[40px]'>
+                <Image
+                  src='/tokyo.jpeg'
+                  width={900}
+                  height={0}
+                  alt='Picture of night'
+                  className='pic4 w-[900px] max-h-[55vh] h-[55vh] opacity-50 scale-[1.2]'
+                />
+              </div>
+              <Image
+                src='/richhh.gif'
+                width={700}
+                height={550}
+                alt='Gif of richh'
+                className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
+              />
             </div>
           </div>
         </div>
