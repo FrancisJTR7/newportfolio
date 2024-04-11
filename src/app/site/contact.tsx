@@ -40,7 +40,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <section className='contsec w-full bg-dgray bg-noised-gif'>
+    <section id='contact' className='contsec w-full bg-dgray bg-noised-gif'>
       <div className=' flex justify-center w-[80vw] '>
         <div className='flex flex-col h-[100vh] justify-evenly items-center w-[70vw]'>
           <h1 className='font-haasxxt text-[100px] text-lgray mt-[10vh]'>

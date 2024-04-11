@@ -22,6 +22,11 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+    smoothScrollLinks.forEach((link) => {
+      link.addEventListener('click', smoothScrollHandler);
+    });
+
     gsap.to('.about', {
       scale: 1,
       scrollTrigger: {
@@ -62,8 +67,25 @@ export default function Home() {
 
     requestAnimationFrame(raf);
 
-    return () => lenis.destroy();
+    return () => {
+      smoothScrollLinks.forEach((link) => {
+        link.removeEventListener('click', smoothScrollHandler);
+      });
+      if (lenis) {
+        lenis.destroy();
+      }
+    };
   }, []);
+
+  const smoothScrollHandler = (e) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   return (
     <main>
@@ -77,7 +99,10 @@ export default function Home() {
       </div>
       <div className='hide w-0 h-0 overflow-hidden '>
         <div className='overflow-hidden'>
-          <div className='xcontainer flex flex-row w-[300vw] h-[100vh] relative translate-x-[-100vw]'>
+          <div
+            id='aboutss'
+            className='xcontainer flex flex-row w-[300vw] h-[100vh] relative translate-x-[-100vw]'
+          >
             <div className='about aboutpers scale-[.85]'>
               <Personal />
             </div>

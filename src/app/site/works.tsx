@@ -111,7 +111,10 @@ export function Works() {
   }, []);
 
   return (
-    <div className='worksec h-[315vh] w-[100vw] bg-dgray bg-noised-gif '>
+    <div
+      id='works'
+      className='worksec h-[315vh] w-[100vw] bg-dgray bg-noised-gif '
+    >
       <div className='works opacity-0 translate-y-24'>
         <div className='w-[100vw] pt-[40px] text-[20px]  text-center mb-[35px] font-haasm text-white '>
           works
