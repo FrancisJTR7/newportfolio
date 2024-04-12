@@ -60,7 +60,7 @@ export default function Home() {
 
     const lenis = new Lenis(options);
 
-    function raf(time) {
+    function raf(time: number) {
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
@@ -77,7 +77,7 @@ export default function Home() {
     };
   }, []);
 
-  const smoothScrollHandler = (e) => {
+  const smoothScrollHandler = (e: any) => {
     e.preventDefault();
     const targetId = e.currentTarget.getAttribute('href');
     const targetElement = document.querySelector(targetId);

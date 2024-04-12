@@ -57,7 +57,7 @@ export default function Professional() {
           <div className=' font-haaslight text-white w-full flex  justify-around text-center'>
             <div className='w-[32vw] max-xl:w-[42vw] max-lg:w-[46vw] max-sm:w-[75vw] h-max mt-[8vh] max-sm:mt-[10vh] p-6  border-[1px] border-opacity-35 border-dashed rounded-[40px] border-white max-lg:ml-16 max-sm:ml-2 max-sm:p-2'>
               <p>
-                so if you're here now you’ve probably seen a million other
+                so if you&apos;re here now you’ve probably seen a million other
                 portfolios. i don’t know about you, but i find it really
                 annoying how everyone just claims to be “the best” at every
                 technology they list out. feels kind of robotic and i think just

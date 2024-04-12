@@ -72,7 +72,7 @@ export default function Hero() {
               </div>
 
               <div className='rtext mr-[13vw] rotate-[7deg] translate-y-[100%] self-end max-sm:mr-2'>
-                i'm <span className='font-haasroman'>frankie</span>
+                i&apos;m <span className='font-haasroman'>frankie</span>
               </div>
             </div>
           </div>

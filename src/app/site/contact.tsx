@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 
 export default function Contact() {
   // Create a ref for the email div
-  const emailRef = useRef(null);
+  const emailRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     // Animation with GSAP
@@ -19,7 +19,7 @@ export default function Contact() {
 
     // Function to copy email to clipboard
     const copyEmailToClipboard = () => {
-      const email = emailRef.current.innerText;
+      const email = 'francisjtr7@outlook.com'; // Hardcoded email address
       navigator.clipboard.writeText(email).catch((err) => {
         console.error('Failed to copy email to clipboard', err);
       });
@@ -44,7 +44,7 @@ export default function Contact() {
       <div className=' flex justify-center w-[100vw] '>
         <div className='flex flex-col h-[100vh] justify-evenly items-center w-[100vw]'>
           <h1 className='text-center font-haasxxt text-[100px] text-lgray mt-[10vh] mr-[25vw] max-xl:mr-[10vw] max-lg:mr-0 max-xl:text-[90px] max-lg:text-[80px] max-md:text-[70px]  max-sm:text-[50px]'>
-            let's get something done.
+            let&apos;s get something done.
           </h1>
           <div className='max-sm:hidden font-haaslight text-[28px] max-xl:text-[26px] max-lg:text-[24px] max-md:text-[22px]  max-sm:text-[20px] text-lgray self-end opacity-[65%] cursor-pointer mb-6 mr-[25vw] max-lg:mr-[10vw]'>
             <span className='text-[14px] cursor-default max-sm:hidden'>
