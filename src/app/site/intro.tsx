@@ -10,8 +10,8 @@ export default function Intro() {
   }, []);
 
   return (
-    <div className='h-[100vh] bg-dgray bg-noised-gif flex justify-center text-white font-haasxxt text-[100px] w-full'>
-      <div className='w-[310px] flex flex-col self-center introW2'>
+    <div className='h-[100vh] bg-dgray bg-noised-gif flex justify-center text-white font-haasxxt text-[100px] max-xl:text-[90px] max-md:text-[80px] max-sm:text-[60px]  w-full'>
+      <div className='w-max flex flex-col self-center introW2'>
         <div className='introW opacity-0'>frankiet</div>
         <div className='introW self-start opacity-0'>.dev</div>
       </div>

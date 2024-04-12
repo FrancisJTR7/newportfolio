@@ -32,7 +32,7 @@ export default function Hero() {
   return (
     <div className='h-[100vh] overflow-hidden'>
       <div>
-        <div className='flex w-full justify-between mt-[40px] text-[20px] translate-y-[-20px] ntext max-sm:mt-[30px] max-md:text-[17px]'>
+        <div className='flex w-full justify-between mt-[40px] text-[20px] translate-y-[-20px] ntext max-sm:mt-[30px] max-md:text-[17px] max-sm:text-[15px]'>
           <div className='w-full ml-[5vw] mb-[15px] font-haaslight'>
             <h1 className=' text-lgray opacity-[60%] '>frontend developer</h1>
             <h1>francis torres rios</h1>
@@ -65,7 +65,7 @@ export default function Hero() {
           />
         </div>
         <div>
-          <div className='flex justify-end mt-[20px] mb-[80px]  max-sm:mb-[60px] max-sm:mt-[60px]'>
+          <div className='flex justify-end mt-[20px] mb-[80px]  max-sm:mb-[70px] max-sm:mt-[70px]'>
             <div className='flex flex-col font-haasxxt text-[100px] w-[920px] text-lgray max-xl:w-[750px] max-xl:ml-10 max-xl:text-[90px] max-md:text-[80px] max-lg:ml-16 max-sm:text-[60px] max-sm:ml-[7vw] '>
               <div className='rtext h-[min] rotate-[6deg] translate-y-[100%] w-min'>
                 howdy
@@ -76,7 +76,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className='flex flex-col w-[420px] font-haaslight text-[20px]  max-sm:mb-[60px] text-lgray opacity-[65%] ml-[8vw] translate-y-[20px] btext max-md:text-[17px] max-sm:ml-4 max-sm:w-[360px]'>
+          <div className='flex flex-col w-[420px] font-haaslight text-[20px] text-lgray opacity-[65%] ml-[8vw] translate-y-[20px] btext max-md:text-[17px] max-sm:text-[14px] max-sm:ml-4 max-sm:w-[350px] '>
             <div>a digital designer and frontend developer </div>
             <div className=' self-end '>
               currently located in new jersey and beyond
