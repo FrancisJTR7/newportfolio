@@ -41,17 +41,20 @@ export default function Contact() {
 
   return (
     <section id='contact' className='contsec w-full bg-dgray bg-noised-gif'>
-      <div className=' flex justify-center w-[80vw] '>
-        <div className='flex flex-col h-[100vh] justify-evenly items-center w-[70vw]'>
-          <h1 className='font-haasxxt text-[100px] text-lgray mt-[10vh]'>
+      <div className=' flex justify-center w-[100vw] '>
+        <div className='flex flex-col h-[100vh] justify-evenly items-center w-[100vw]'>
+          <h1 className='text-center font-haasxxt text-[100px] text-lgray mt-[10vh] mr-[25vw] max-xl:mr-[10vw] max-lg:mr-0 max-xl:text-[90px] max-lg:text-[80px] max-md:text-[70px]  max-sm:text-[50px]'>
             let's get something done.
           </h1>
-          <div className='font-haaslight text-[28px] text-lgray self-end opacity-[65%] cursor-pointer mb-6'>
-            <span className='text-[14px] cursor-default'>
+          <div className='max-sm:hidden font-haaslight text-[28px] max-xl:text-[26px] max-lg:text-[24px] max-md:text-[22px]  max-sm:text-[20px] text-lgray self-end opacity-[65%] cursor-pointer mb-6 mr-[25vw] max-lg:mr-[10vw]'>
+            <span className='text-[14px] cursor-default max-sm:hidden'>
               click email to copy
             </span>
             <br />
             <span ref={emailRef}>francisjtr7@outlook.com</span>
+          </div>
+          <div className='sm:hidden font-haaslight text-[28px] max-xl:text-[26px] max-lg:text-[24px] max-md:text-[22px]  max-sm:text-[20px] text-lgray self-end opacity-[65%] cursor-pointer mb-6 mr-[25vw] max-lg:mr-[10vw]'>
+            francisjtr7@outlook.com
           </div>
         </div>
       </div>

@@ -114,7 +114,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='w-[100vw] h-[315vh] worksbox'>
+        <div className='w-[100vw] h-[315vh] max-lg:h-[340vh] worksbox'>
           <Works />
         </div>
         <div className='w-[100vw] h-[100vh]'>
