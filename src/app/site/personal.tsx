@@ -22,10 +22,8 @@ export default function Personal() {
         <div className='border-b-[1px] border-dashed border-white opacity-[35%]' />
         <div className='flex items-center w-full justify-around h-[40vh] max-sm:h-[37vh]  '>
           <div className=' overflow-hidden rounded-[40px] sm:hidden'>
-            <Image
+            <img
               src='/fishing.png'
-              width={550}
-              height={0}
               alt='Picture of francis fishing'
               className=' opacity-90 w-[75vw]'
             />
@@ -62,10 +60,8 @@ export default function Personal() {
         </div>
         <div className='flex items-center w-full justify-around h-[42vh] max-sm:flex-col '>
           <div className=' overflow-hidden rounded-[40px] max-sm:hidden '>
-            <Image
+            <img
               src='/fishing.png'
-              width={550}
-              height={0}
               alt='Picture of francis fishing'
               className=' opacity-90 w-[32vw] max-xl:w-[42vw] max-lg:w-[46vw] '
             />

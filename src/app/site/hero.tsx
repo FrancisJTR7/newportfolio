@@ -56,10 +56,8 @@ export default function Hero() {
       </div>
       <div className='flex flex-col h-[80%] justify-between max-sm:h-min'>
         <div className='overflow-hidden ml-[5vw] mt-[25px] w-[140px] '>
-          <Image
+          <img
             src='/OIP.jpeg'
-            width={140}
-            height={1}
             alt='Picture of profile'
             className='h-[180px] object-cover scale-125 imgz max-sm:w-[100px] max-sm:h-[140px] '
           />

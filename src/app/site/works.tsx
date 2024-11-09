@@ -124,18 +124,14 @@ export function Works() {
           <div className='work1 opacity-30 translate-x-[-10%] h-full w-[50vw] flex justify-end items-center max-lg:hidden'>
             <div className='relative max-w-[90%]'>
               <div className='overflow-hidden rounded-[40px]'>
-                <Image
+                <img
                   src='/night1.jpg'
-                  width={900}
-                  height={0}
                   alt='Picture of night'
                   className='pic1 max-h-[55vh] h-[30vw]  opacity-70 scale-[1.2]'
                 />
               </div>
-              <Image
+              <img
                 src='/aishirt.png'
-                width={700}
-                height={550}
                 alt='Picture of shirt website'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
@@ -147,18 +143,14 @@ export function Works() {
             </div>
             <div className='relative w-[60%] lg:hidden'>
               <div className='overflow-hidden rounded-[40px] max-sm:rounded-[20px] max-h-[55vh] h-[35vw]'>
-                <Image
+                <img
                   src='/night1.jpg'
-                  width={900}
-                  height={0}
                   alt='Picture of night'
                   className='pic1 max-h-[55vh] h-[35vw]  opacity-70 scale-[1.2]'
                 />
               </div>
-              <Image
+              <img
                 src='/aishirt.png'
-                width={700}
-                height={550}
                 alt='Picture of shirt website'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto w-[80%]'
               />
@@ -187,10 +179,10 @@ export function Works() {
               onto the model.
             </div>
             <a
-              href='https://3dairshirt.com'
+              href='https://3daishirt.com'
               className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%]'
             >
-              https://3dairshirt.com
+              https://3daishirt.com
             </a>
           </div>
         </div>
@@ -202,18 +194,14 @@ export function Works() {
               </div>
               <div className='relative w-[60%] lg:hidden '>
                 <div className='overflow-hidden rounded-[40px] max-sm:rounded-[20px] max-h-[55vh] h-[35vw]'>
-                  <Image
+                  <img
                     src='/sanfran.jpg'
-                    width={900}
-                    height={0}
                     alt='Picture of night'
                     className='pic2 max-h-[55vh] h-[35vw]  opacity-70 scale-[1.2]'
                   />
                 </div>
-                <Image
+                <img
                   src='/oldport.gif'
-                  width={700}
-                  height={550}
                   alt='Gif of old portfolio'
                   className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
                 />
@@ -246,18 +234,14 @@ export function Works() {
           <div className='work2 max-lg:hidden opacity-30 translate-x-[10%] h-full w-[50vw] flex justify-end items-center ml-[3vw] '>
             <div className='relative max-w-[90%] '>
               <div className=' overflow-hidden rounded-[40px]'>
-                <Image
+                <img
                   src='/sanfran.jpg'
-                  width={900}
-                  height={0}
                   alt='Picture of night'
                   className='pic2 w-[900px] max-h-[55vh] h-[30vw] opacity-50 scale-[1.2]'
                 />
               </div>
-              <Image
+              <img
                 src='/oldport.gif'
-                width={700}
-                height={550}
                 alt='Gif of old portfolio'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
@@ -267,19 +251,15 @@ export function Works() {
         <div className='work3c flex flex-row h-[75vh] w-[100vw]'>
           <div className='work3 opacity-30 translate-x-[-10%] h-full w-[50vw] flex justify-end items-center max-lg:hidden'>
             <div className='relative max-w-[90%]'>
-              <div className='overflow-hidden rounded-[40px] max-h-[55vh] h-[35vw]'>
-                <Image
+              <div className='overflow-hidden rounded-[40px]'>
+                <img
                   src='/nycpic.jpg'
-                  width={900}
-                  height={0}
                   alt='Picture of night'
-                  className='pic3 max-h-[55vh] h-[30vw]  opacity-70 scale-[1.2]'
+                  className='pic3 max-h-[55vh]   h-[30vw] h-full w-full opacity-70 scale-[1.2]'
                 />
               </div>
-              <Image
+              <img
                 src='/3djackgif.gif'
-                width={700}
-                height={550}
                 alt='Picture of jacket website'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
@@ -291,18 +271,14 @@ export function Works() {
             </div>
             <div className='relative max-w-[60%] lg:hidden'>
               <div className='overflow-hidden rounded-[40px] max-sm:rounded-[20px] max-h-[55vh] h-[35vw]'>
-                <Image
+                <img
                   src='/nycpic.jpg'
-                  width={900}
-                  height={0}
                   alt='Picture of night'
                   className='pic3 max-h-[55vh] h-[35vw]  opacity-70 scale-[1.2]'
                 />
               </div>
-              <Image
+              <img
                 src='/3djackgif.gif'
-                width={700}
-                height={550}
                 alt='Picture of jacket website'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
@@ -345,18 +321,14 @@ export function Works() {
               </div>
               <div className='relative w-[60%] lg:hidden '>
                 <div className='overflow-hidden rounded-[40px] max-sm:rounded-[20px] max-h-[55vh] h-[35vw]'>
-                  <Image
+                  <img
                     src='/tokyo.jpeg'
-                    width={900}
-                    height={0}
                     alt='Picture of night'
                     className='pic4 max-h-[55vh] h-[35vw]  opacity-70 scale-[1.2]'
                   />
                 </div>
-                <Image
+                <img
                   src='/richhh.gif'
-                  width={700}
-                  height={550}
                   alt='Gif of richh'
                   className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
                 />
@@ -392,18 +364,14 @@ export function Works() {
           <div className='work4 max-lg:hidden opacity-30 translate-x-[10%] h-full w-[50vw] flex justify-end items-center ml-[3vw] '>
             <div className='relative max-w-[90%] '>
               <div className='overflow-hidden rounded-[40px]'>
-                <Image
+                <img
                   src='/tokyo.jpeg'
-                  width={900}
-                  height={0}
                   alt='Picture of night'
                   className='pic4 w-[900px] max-h-[55vh] h-[30vw] opacity-50 scale-[1.2]'
                 />
               </div>
-              <Image
+              <img
                 src='/richhh.gif'
-                width={700}
-                height={550}
                 alt='Gif of richh'
                 className='absolute right-0 left-0 bottom-0 top-0 m-auto max-w-[85%]'
               />
