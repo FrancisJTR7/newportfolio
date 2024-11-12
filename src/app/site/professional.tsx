@@ -51,6 +51,13 @@ export default function Professional() {
               <br />
               mysql
               <br />
+              supabase
+              <br />
+              highcharts
+              <br />
+              posthog
+              <br />
+              bigquery
             </div>
           </div>
 
@@ -77,7 +84,7 @@ export default function Professional() {
             <div className='indent-0 w-[20vw] mr-[8vw] max-sm:hidden'>
               <span className='font-haasm'>technologies:</span>
               <br />
-              nextjs (react too of course)
+              nextjs (react)
               <br />
               figma
               <br />
@@ -97,7 +104,13 @@ export default function Professional() {
               <br />
               mysql
               <br />
+              supabase
               <br />
+              highcharts
+              <br />
+              posthog
+              <br />
+              bigquery
             </div>
           </div>
         </div>
