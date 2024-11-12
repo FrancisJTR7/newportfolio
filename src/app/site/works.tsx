@@ -141,7 +141,7 @@ export function Works() {
             <div className='font-haasxt text-[72px] max-xl:text-[66px] max-md:text-[60px] max-sm:text-[44px] max-sm:w-full tracking-[-.8px] max-lg:mt-[4vh] max-lg:mb-[2vh] '>
               threejs ai shirt website
             </div>
-            <div className='relative w-[60%] lg:hidden'>
+            <div className='relative  lg:hidden'>
               <div className='overflow-hidden rounded-[40px] max-sm:rounded-[20px] max-h-[55vh] h-[35vw]'>
                 <img
                   src='/night1.jpg'
@@ -319,7 +319,7 @@ export function Works() {
               <div className='font-haasxt text-[72px] max-xl:text-[66px] max-md:text-[60px] max-sm:text-[44px] max-sm:w-full tracking-[-.8px] max-lg:mt-[8vh] max-lg:mb-[2vh] '>
                 ricch website
               </div>
-              <div className='relative w-[60%] lg:hidden '>
+              <div className='relative  lg:hidden '>
                 <div className='overflow-hidden rounded-[40px] max-sm:rounded-[20px] max-h-[55vh] h-[35vw]'>
                   <img
                     src='/tokyo.jpeg'

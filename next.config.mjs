@@ -1,6 +1,12 @@
+// next.config.mjs
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['frankiet.dev'],
+  },
 };
 
 export default nextConfig;

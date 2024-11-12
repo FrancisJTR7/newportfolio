@@ -34,7 +34,7 @@ export default function Hero() {
       <div>
         <div className='flex w-full justify-between mt-[40px] text-[20px] translate-y-[-20px] ntext max-sm:mt-[30px] max-md:text-[17px] max-sm:text-[15px]'>
           <div className='w-full ml-[5vw] mb-[15px] font-haaslight'>
-            <h1 className=' text-lgray opacity-[60%] '>frontend developer</h1>
+            <h1 className=' text-lgray opacity-[60%] '>i love kaydence</h1>
             <h1>francis torres rios</h1>
           </div>
           <div className='flex justify-around w-full font-haaslight'>
