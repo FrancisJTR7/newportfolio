@@ -187,7 +187,7 @@ export function Works() {
               onto the model.
             </div>
             <a
-              href='https://3daishirt.com'
+              href='https://ai-3d-shirt-website.vercel.app/'
               className='underline font-haaslight decoration-1 underline-offset-[6px] translate-y-[-60%]'
             >
               https://3daishirt.com
